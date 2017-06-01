@@ -8,6 +8,8 @@ module.exports = {
       }
     ]
   },
+  devtool: 'inline-source-map',
+  target: 'web',
   entry: './src/entry.js',
   output: {
     filename: './dist/bundle.js'
