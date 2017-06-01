@@ -1,1 +1,3 @@
-console.log('hi')
+import hello from './module'
+
+hello()
