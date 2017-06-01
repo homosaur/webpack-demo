@@ -8,7 +8,7 @@ module.exports = {
       }
     ]
   },
-  devtool: 'inline-source-map',
+  devtool: process.env.NODE_ENV === 'production' ? false : 'inline-source-map',
   target: 'web',
   entry: './src/entry.js',
   output: {
