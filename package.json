@@ -1,0 +1,12 @@
+{
+  "name": "webpack-demo",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "description": "webpack demo",
+  "repository": "none",
+  "license": "ISC"
+}
